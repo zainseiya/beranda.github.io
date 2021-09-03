@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- Bootstrap CSS -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+			crossorigin="anonymous"
+		/>
+
+    <!-- Icon bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+		<!-- my css -->
+		<link rel="stylesheet" href="style.css" />
+		
+		<title>Beranda</title>
+	</head>
+	<body id="home">
+		<!-- navbar -->
+		<nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: rgb(253, 126, 20)">
+			<div class="container">
+				<a class="navbar-brand" href="#">WebGIS Kabupaten Tapin</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNavDropdown"
+					aria-controls="navbarNavDropdown"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavDropdown">
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#home"><i class="bi bi-house-fill"></i>Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" href="#About"><i class="bi bi-person-circle"></i>Tentang Kami</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" href="#"><i class="bi bi-map-fill"></i>Peta</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" href="#kegiatan"><i class="bi bi-list-task"></i>Kegiatan</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" href="#tutorial"><i class="bi bi-youtube"></i>Tutorial</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" href="#kontak"><i class="bi bi-chat-right-text-fill"></i>Kontak Kami</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> <i class="bi bi-download"></i>Download </a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								<li><a class="dropdown-item" href="#">Action</a></li>
+								<li><a class="dropdown-item" href="#">Another action</a></li>
+								<li>
+									<a class="dropdown-item" href="#">Something else here</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- Akhir navbar -->
+
+		<!-- Carousel -->
+		<section class="carousel">
+			<div class="container-fluid">
+				<div class="col">
+					<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+						<div class="carousel-indicators">
+							<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+							<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+							<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+						</div>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img src="img/Maju_tamasa.jpg" class="d-block w-100" alt="..." />
+							</div>
+							<div class="carousel-item">
+								<img src="img/tamasa merdeka.jpg" class="d-block w-100" alt="..." />
+							</div>
+							<div class="carousel-item">
+								<img src="img/Maju_tamasa.jpg" class="d-block w-100" alt="..." />
+							</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Akhir Carousel -->
+
+		<!-- Junbotron -->
+		<section class="jumbotron text-center">
+			<img src="img/Tapin.jpg" alt="logo" width="100" class="rounded-circle img-thumbnail" />
+			<h1 class="display-4 fw-bold">WebGIS KABUPATEN TAPIN</h1>
+			<p class="lead fw-bold">Aplikasi sistem informasi tata ruang.</p>
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+				<path
+					fill="#ffffff"
+					fill-opacity="1"
+					d="M0,224L80,197.3C160,171,320,117,480,128C640,139,800,213,960,240C1120,267,1280,245,1360,234.7L1440,224L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+				></path>
+			</svg>
+		</section>
+		<!-- Akhir Jumbotron -->
+		
+		<!-- About -->
+		<section id="About">
+			<div class="container">
+				<div class="row text-center mb-3">
+					<div class="col">
+						<h2>Tentang Kami</h2>
+						
+					</div>
+				</div>
+				<div class="row justify-content-center fs-5 text-center">
+					<div class="col-md-5 mb-2 ">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis iste commodi voluptatum, illum impedit quam dolorum accusantium dolores ex dicta accusamus sequi debitis ea nobis temporibus
+						cumque ad quia enim?
+					</div>
+					<div class="col-md-5 mb-2 ">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus iste reprehenderit rem aut odio minus dolorem provident, quam repellat ipsum cupiditate earum velit quasi aliquid?
+					</div>
+				</div>
+			</div>
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+				<path
+					fill="#eca164"
+					fill-opacity="1"
+					d="M0,96L40,101.3C80,107,160,117,240,122.7C320,128,400,128,480,112C560,96,640,64,720,53.3C800,43,880,53,960,80C1040,107,1120,149,1200,149.3C1280,149,1360,107,1400,85.3L1440,64L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+				></path>
+			</svg>
+		</section>
+		<!-- Akhir about -->
+
+		<!-- kegiatan -->
+		<section id="kegiatan">
+			<div class="container">
+				<div class="row text-center mb-3">
+					<div class="col">
+						<h2>Kegiatan Kami</h2>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-md-4 mb-3">
+						<div class="card"></div>
+							<img src="img/kegiatan/1.jpg" class="card-img-top rounded" alt="kegiatan 1" />
+							<div class="card-body">
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							</div>
+						</div>
+					<div class="col-md-4 mb-3">
+						<div class="card"></div>
+							<img src="img/kegiatan/2.jpg" class="card-img-top rounded" alt="kegiatan 2" />
+							<div class="card-body">
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							</div>
+						</div>
+					<div class="col-md-4 mb-3">
+						<div class="card"></div>
+							<img src="img/kegiatan/3.jpg" class="card-img-top rounded" alt="kegiatan 3" />
+							<div class="card-body">
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							</div>
+						</div>
+					<div class="col-md-4 mb-3">
+						<div class="card"></div>
+							<img src="img/kegiatan/4.jpg" class="card-img-top rounded" alt="kegiatan 4" />
+							<div class="card-body">
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							</div>
+						</div>
+					<div class="col-md-4 mb-3">
+						<div class="card"></div>
+							<img src="img/kegiatan/5.jpg" class="card-img-top rounded" alt="kegiatan 5" />
+							<div class="card-body">
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+     
+		</section>
+		<!-- Akhir Kegiatan -->
+
+    <!-- Tutorial -->
+    <section id="tutorial">
+      <div class="container" >
+        <div class="row justify-content-center mb-3">
+					<div class="col text-center">
+						<h2>Tutorial Penggunaan Peta</h2>
+					</div>
+				</div>
+        <div class="row justify-content-center ">
+          <div class="col-6">
+            <iframe width="800" height="600" src="https://www.youtube.com/embed/gAiE24JM1z4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div> 
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,96L48,90.7C96,85,192,75,288,101.3C384,128,480,192,576,202.7C672,213,768,171,864,154.7C960,139,1056,149,1152,144C1248,139,1344,117,1392,106.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>    
+    </section>
+    <!-- Akhir Tutorial -->
+
+    <!-- kontak -->
+    <section id="kontak">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2> Kontak Kami</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6 mb-3">
+            <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+              <strong>Terima Kasih!</strong> Pesan anda sudah kami terima.
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            <form name="webgis-tataruang">
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" name="nama">                
+              </div>            
+              <div class="mb-3">
+                <label for="email" class="form-label">Alamat Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email" name="email">                
+              </div>   
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="pesan" rows="5" name="pesan"></textarea>
+              </div>         
+              <button type="submit" class="btn btn-primary btn-kirim">Kirim</button>
+
+              <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                Loading...
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fd7e14" fill-opacity="1" d="M0,192L40,208C80,224,160,256,240,272C320,288,400,288,480,250.7C560,213,640,139,720,128C800,117,880,171,960,181.3C1040,192,1120,160,1200,160C1280,160,1360,192,1400,208L1440,224L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+    </section>
+    <!-- Akhir kontak -->
+
+    <!-- footer -->
+    <footer class="text-white text-center pb-1" style="background-color: #fd7e14;">
+      <p><i class="bi bi-map-fill text-white"></i> Created By Zainul Muttaqin <i class="bi bi-geo-alt-fill text-white"></i> <a href="#home" class="text-white fw-bold"> zm </a></p>
+    </footer>
+    <!-- Akhir footer -->
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+			crossorigin="anonymous"
+		></script>
+
+<!-- google sheets --> 
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbzu0LcDBtlkILB2BdR75tJan4MqC2mFBPH2E4_dgKbuHICpFN6w8QL9-fYpZHp_53hK/exec'
+      const form = document.forms['webgis-tataruang'];
+      const btnKirim = document.querySelector('.btn-kirim');
+      const btnLoading = document.querySelector('.btn-loading');
+      const myAlert = document.querySelector('.my-alert');
+      
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault();
+	//Ketika tombol submit diKlik
+    //Tampilkan tombol loading,hilangkan tombol kirim
+      btnLoading.classList.toggle('d-none');
+      btnKirim.classList.toggle('d-none');
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+			//Tampilkan tombol kirim,hilangkan tombol loading
+			btnLoading.classList.toggle('d-none');
+      		btnKirim.classList.toggle('d-none');
+			  //Tampilkan alert
+			  myAlert.classList.toggle('d-none');
+			  //reset formnya
+			  form.reset();
+			console.log('Success!', response);
+			})
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+	</body>
+</html>

@@ -1,0 +1,21 @@
+.carousel {
+  padding-top: 2rem;
+  padding-bottom: 0.1rem;
+}
+
+.jumbotron {
+  padding-top: 2rem;
+  background-color: rgb(236, 161, 100);
+}
+
+#kegiatan {
+  background-color: rgb(236, 161, 100);
+}
+
+#tutorial {
+  background-color: rgb(236, 161, 100);
+}
+
+section {
+  padding-top: 5rem;
+}
